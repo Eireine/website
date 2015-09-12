@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'IndustryInc-Stencil';
+	src: url('IndustryInc-Stencil.otf');
+}
+
+@font-face {
+	font-family: 'Industry-Medium';
+	src: url('Industry-Medium.otf');
+}
+
+@font-face {
+	font-family: 'IndustryInc-InlineStroke';
+	src: url('IndustryInc-InlineStroke.otf');
+}
+
+@font-face {
+	font-family: 'IndustryInc-Detail';
+	src: url('IndustryInc-Detail.otf');
+}
+
+body {
+	font-size: 18px !important;
+	padding-top: 10px;
+}
+
+.banner {
+	background-color: #f6f2e6; /*couleur bleu nuit*/
+	font-family: 'IndustryInc-Stencil';
+	font-size: 25px;
+}
+
+.banner img {
+	height: 20px;
+	border-radius: 50px;
+	background-color: #060934;
+}
+
+.nav {
+	text-align: center; /* Les boutons sont centrés */
+	margin-top: 5px;
+}
+
+.nav ul {
+	list-style: none; /* pas de petits points */
+	margin: 0 0 0 0 !important;
+	background-color: #060934;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.nav ul li {
+	display: inline; /* Les éléments de la liste sont alignés */
+	margin: 60px; /* Chaques éléments sont décallés de 60px */
+}
+
+.nav ul li a {
+	color: #f6f2e6;
+	line-height: 26px;
+	font-family: 'IndustryInc-InlineStroke';
+}
+
+h1 {
+	font-family: 'IndustryInc-Stencil' !important;
+	font-size: 20px !important;
+}
+
+h2 {
+	font-family: 'IndustryInc-InlineStroke' !important;
+	font-size: 18px !important;
+}
+
+h3 {
+	font-family: 'IndustryInc-InlineStroke' !important;
+	font-size: 16px !important;
+	padding-left: 25px;
+}
+
+article {
+	background-color: white;
+	border: 1px dashed black;
+}
+
+article img {
+	margin-bottom: 0px;
+}
+
+article p {
+	text-indent: 20px;
+}
+

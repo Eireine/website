@@ -1,0 +1,160 @@
+@font-face {
+	font-family: 'IndustryInc-Stencil';
+	src: url('IndustryInc-Stencil.otf');
+	text-align: justify
+}
+
+@font-face {
+	font-family: 'Industry-Medium';
+	src: url('Industry-Medium.otf');
+}
+
+@font-face {
+	font-family: 'IndustryInc-InlineStroke';
+	src: url('IndustryInc-InlineStroke.otf');
+}
+
+@font-face {
+	font-family: 'IndustryInc-Detail';
+	src: url('IndustryInc-Detail.otf');
+}
+
+@font-face {
+	font-family: 'Lane - Narrow';
+	src: url('LANERAR.ttf');
+}
+
+body {
+	font-size: 18px !important;
+	font-family: 'Lane - Narrow'!important;
+}
+
+header {
+	background-color: #88D1C0; /*couleur vert d'eau*/
+}
+
+.banner {
+	font-family: 'IndustryInc-Stencil' !important;
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+.banner a:link {
+	text-decoration: none;
+	color: black !important;
+}
+
+.banner a:hover {
+	text-decoration: none;
+	color : black;
+	padding: 0px;
+}
+
+.banner a:visited {
+	text-decoration: none;
+	color : black;
+	padding-left: 5px;
+}
+
+.banner a:active {
+	text-decoration: none;
+	color : black !important;
+}
+
+.banner img {
+	height: 50px;
+}
+
+.nav {
+	text-align: center; /* Les boutons sont centrés */
+	margin-top: 5px;  
+}
+
+.nav ul {
+	list-style: none; /* pas de petits points */
+	margin: 0 0 0 0 !important;
+	background-color: #88D1C0; /*couleur bleu fumée*/
+	font-size: 20px;
+	padding: 15px;
+}
+
+.nav ul li {
+	display: inline; /* Les éléments de la liste sont alignés */
+	margin: 50px; /* Chaques éléments sont décallés de 60px */
+}
+
+.nav ul li a {
+	color: white; /*test : E0E6E9  sinon F6F2E6*/
+	line-height: 20px;
+	font-family: 'IndustryInc-InlineStroke';
+}
+
+.nav ul li i {
+	padding-right: 3px;
+}
+
+h1 {
+	font-family: 'IndustryInc-Stencil' !important;
+	font-size: 20px !important;
+	color: #88D1C0 !important;
+	padding-top: 0px !important;
+}
+
+h2 {
+	font-family: 'IndustryInc-InlineStroke' !important;
+	font-size: 18px !important;
+}
+
+h3 {
+	font-family: 'IndustryInc-InlineStroke' !important;
+	font-size: 16px !important;
+	padding-left: 25px;
+}
+
+article {
+	background-color: white;
+	padding: 20px;
+	font-family: 'Lane - Narrow' !important;
+}
+
+article img {
+	margin-bottom: 25px;
+}
+
+ul li {
+	font-family: 'Lane - Narrow' !important;
+}
+
+article iframe {
+	padding: 25px; 
+}
+
+article a:link {
+	color : black;
+	font-style: italic;
+}
+
+article a:hover {
+	text-decoration: underline;
+	font-style: italic;
+	color : black;
+}
+
+article a:visited {
+	text-decoration: none;
+	font-style: italic;
+	color : black;
+}
+
+article a:active {
+	text-decoration: none;
+	font-style: italic;
+	color : black;
+}
+
+footer {
+	background-color: #88D1C0; /*couleur vert d'eau*/
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+}
