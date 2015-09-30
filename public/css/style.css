@@ -21,8 +21,9 @@
 
 @font-face {
 	font-family: 'Lane - Narrow';
-	src: url('LANERAR.ttf');
+	src: url('LANENAR.ttf');
 }
+
 
 body {
 	font-size: 18px !important;
