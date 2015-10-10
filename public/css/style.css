@@ -1,27 +1,27 @@
 @font-face {
 	font-family: 'IndustryInc-Stencil';
-	src: url('IndustryInc-Stencil.otf');
+	src: url('fonts/IndustryInc-Stencil.otf');
 	text-align: justify
 }
 
 @font-face {
 	font-family: 'Industry-Medium';
-	src: url('Industry-Medium.otf');
+	src: url('fonts/Industry-Medium.otf');
 }
 
 @font-face {
 	font-family: 'IndustryInc-InlineStroke';
-	src: url('IndustryInc-InlineStroke.otf');
+	src: url('fonts/IndustryInc-InlineStroke.otf');
 }
 
 @font-face {
 	font-family: 'IndustryInc-Detail';
-	src: url('IndustryInc-Detail.otf');
+	src: url('fonts/IndustryInc-Detail.otf');
 }
 
 @font-face {
 	font-family: 'Lane - Narrow';
-	src: url('LANENAR.ttf');
+	src: url('fonts/LANENAR.ttf');
 }
 
 
