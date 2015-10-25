@@ -78,6 +78,10 @@ article {
 	border: 1px dashed black;
 }
 
+article p {
+	font-family: 'Poiret One', cursive;
+}
+
 article img {
 	margin-bottom: 0px;
 }
