@@ -81,7 +81,7 @@ header {
 
 .nav ul li {
 	display: inline; /* Les éléments de la liste sont alignés */
-	margin: 50px; /* Chaques éléments sont décallés de 60px */
+	margin: 40px; /* Chaques éléments sont décallés de 40px */
 }
 
 .nav ul li a {
