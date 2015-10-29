@@ -24,7 +24,6 @@
 	src: url('../fonts/LANENAR.ttf');
 }
 
-
 body {
 	font-size: 16px !important;
 	font-family: 'Lane - Narrow'!important;
@@ -40,26 +39,29 @@ header {
 	padding-top: 10px;
 }
 
-.banner a:link {
+.banner a:link { /*bannière non visitée*/
 	text-decoration: none;
-	color: black !important;
+	color: #2E3135 ; /*gris foncé*/
+	padding: 20px;
 }
 
-.banner a:hover {
+.banner a:hover { /*bannière visée*/
 	text-decoration: none;
-	color : black;
-	padding: 0px;
+	color : #2E3135; /*gris foncé*/
+	padding: 20px;
 }
 
-.banner a:visited {
+.banner a:visited { /*bannière visitée*/
 	text-decoration: none;
-	color : black;
+	color : #2E3135; /*gris foncé*/
 	padding-left: 5px;
+	padding: 20px;
 }
 
-.banner a:active {
+.banner a:focus {
+	color: #2E3135 ; /*gris foncé*/
 	text-decoration: none;
-	color : black !important;
+	padding: 20px;
 }
 
 .banner img {
@@ -93,6 +95,23 @@ header {
 .nav ul li i {
 	padding-right: 3px;
 }
+
+.nav a:link { /*lien non visité*/
+	color: white;
+}
+
+.nav a:hover { /*lien visé*/
+	color: white;
+}
+
+.nav a:visited { /*lien visité*/
+	color: white;
+}
+
+.nav a:active { /*lien cliqué*/
+	color : white;
+}
+
 
 h1 {
 	font-family: 'IndustryInc-Stencil' !important;
