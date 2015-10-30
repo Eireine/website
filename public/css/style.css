@@ -83,13 +83,14 @@ header {
 
 .nav ul li {
 	display: inline; /* Les éléments de la liste sont alignés */
-	margin: 40px; /* Chaques éléments sont décallés de 40px */
+	margin: 50px; /* Chaques éléments sont décallés de 40px */
 }
 
 .nav ul li a {
 	color: white; /*test : E0E6E9  sinon F6F2E6*/
-	line-height: 20px;
-	font-family: 'IndustryInc-InlineStroke';
+	line-height: 20px !important;
+	font-family: 'Patrick Hand', cursive !important; 
+	font-size: 20px !important;
 }
 
 .nav ul li i {
@@ -114,20 +115,20 @@ header {
 
 
 h1 {
-	font-family: 'IndustryInc-Stencil' !important;
-	font-size: 20px !important;
+	font-family: 'Patrick Hand', cursive !important;
+	font-size: 22px !important;
 	color: #88D1C0 !important;
 	padding-top: 0px !important;
 }
 
 h2 {
-	font-family: 'IndustryInc-InlineStroke' !important;
-	font-size: 18px !important;
+	font-family: 'Patrick Hand', cursive !important;
+	font-size: 20px !important;
 }
 
 h3 {
-	font-family: 'IndustryInc-InlineStroke' !important;
-	font-size: 16px !important;
+	font-family: 'Patrick Hand', cursive !important;
+	font-size: 18px !important;
 	padding-left: 25px;
 }
 
