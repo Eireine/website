@@ -89,7 +89,7 @@ header {
 .nav ul li a {
 	color: white; /*test : E0E6E9  sinon F6F2E6*/
 	line-height: 20px !important;
-	font-family: 'Patrick Hand', cursive !important; 
+	font-family: 'Patrick Hand', cursive !important;
 	font-size: 20px !important;
 }
 
@@ -135,7 +135,7 @@ h3 {
 article {
 	background-color: white;
 	padding: 20px;
-	font-family: 'Inconsolata' !important ; 
+	font-family: 'Inconsolata' !important ;
 }
 
 article img {
@@ -151,26 +151,26 @@ article iframe {
 }
 
 article a:link {
-	color : black;
+	color : #88D1C0;
 	font-style: italic;
 }
 
 article a:hover {
 	text-decoration: underline;
 	font-style: italic;
-	color : black;
+	color : #88D1C0;
 }
 
 article a:visited {
 	text-decoration: none;
 	font-style: italic;
-	color : black;
+	color : #88D1C0;
 }
 
 article a:active {
 	text-decoration: none;
 	font-style: italic;
-	color : black;
+	color : #88D1C0;
 }
 
 footer {
