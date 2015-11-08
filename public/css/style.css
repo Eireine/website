@@ -34,7 +34,7 @@ header {
 
 .banner {
 	font-family: 'Patrick Hand', cursive !important;
-	font-size: 28px;
+	font-size: 25px;
 	padding-top: 10px;
 }
 
@@ -64,7 +64,7 @@ header {
 }
 
 .banner img {
-	height: 55px;
+	height: 45px;
 }
 
 .nav {
