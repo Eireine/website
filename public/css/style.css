@@ -86,7 +86,7 @@ header {
 }
 
 .nav ul li a {
-	color: white; /*test : E0E6E9  sinon F6F2E6*/
+	color: white;
 	line-height: 20px !important;
 	font-family: 'Patrick Hand', cursive !important;
 	font-size: 20px !important;
@@ -130,6 +130,43 @@ h3 {
 	font-size: 18px !important;
 	padding-left: 25px;
 }
+
+#carousel-example-generic {
+	margin: 25px;
+}
+
+.carousel img {
+	min-width: 100%;
+}
+
+.carousel p {
+	color: white;
+	font-family: 'Inconsolata' !important ;
+	font-size: 20px;
+}
+
+.carousel a {
+	color : white;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 22px;
+}
+
+.carousel a:link { /*lien non visité*/
+	color: #88D1C0;
+}
+
+.carousel a:hover { /*lien visé*/
+	color: #88D1C0;
+}
+
+.carousel a:visited { /*lien visité*/
+	color: #88D1C0;
+}
+
+.carousel a:active { /*lien cliqué*/
+	color : #88D1C0;
+}
+
 
 article {
 	background-color: white;
