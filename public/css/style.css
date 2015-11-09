@@ -30,6 +30,7 @@ body {
 
 header {
 	background-color: #88D1C0; /*couleur vert d'eau*/
+	width: 100%;
 }
 
 .banner {
@@ -74,7 +75,6 @@ header {
 
 .nav ul {
 	list-style: none; /* pas de petits points */
-	margin: 0 0 0 0 !important;
 	background-color: #88D1C0; /*couleur bleu fumée*/
 	font-size: 20px;
 	padding-bottom: 10px;
@@ -82,7 +82,7 @@ header {
 
 .nav ul li {
 	display: inline; /* Les éléments de la liste sont alignés */
-	margin: 50px; /* Chaques éléments sont décallés de 40px */
+	margin: 50px; /* Chaques éléments sont décallés de 50px */
 }
 
 .nav ul li a {
@@ -132,7 +132,7 @@ h3 {
 }
 
 #carousel-example-generic {
-	margin: 20px;
+	margin: 10px;
 }
 
 .carousel img {
@@ -166,7 +166,6 @@ h3 {
 .carousel a:active { /*lien cliqué*/
 	color : #88D1C0;
 }
-
 
 article {
 	background-color: white;
@@ -209,8 +208,18 @@ article a:active {
 	color : #88D1C0;
 }
 
+aside {
+	background-color: #2E3135;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Inconsolata';
+	padding: 2px 10px;
+	margin-top: 55px;
+}
+
 footer {
 	background-color: #88D1C0; /*couleur vert d'eau*/
+	font-family: 'Inconsolata' !important ;
 	padding: 10px;
 	color: white;
 	font-size: 15px;
