@@ -37,6 +37,7 @@ header {
 	font-family: 'Patrick Hand', cursive !important;
 	font-size: 25px;
 	padding-top: 10px;
+	width: 100%;
 }
 
 .banner a:link { /*bannière non visitée*/
