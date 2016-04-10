@@ -168,6 +168,10 @@ h3 {
 	color : #88D1C0;
 }
 
+.owl-carousel p {
+	color : red;
+}
+
 article {
 	background-color: white;
 	padding: 20px;
