@@ -34,6 +34,10 @@ header {
 	width: 100%;
 }
 
+header .container {
+	width: 100% !important;
+}
+
 .banner {
 	font-family: 'Patrick Hand', cursive !important;
 	font-size: 25px;
@@ -113,6 +117,30 @@ header {
 .nav a:active { /*lien cliqué*/
 	color : white;
 }
+
+.subnav {
+	text-align: center ; /* Les boutons sont centrés */
+	position: fixed ;
+	width : 100%;
+	z-index: 100;
+}
+
+.subnav ul {
+	list-style: none; /* pas de petits points */
+	background-color: #B9C1CD; /*couleur bordeaux : A13447*/
+}
+
+.subnav ul li {
+	display: inline; /* Les éléments de la liste sont alignés */
+}
+
+.subnav ul li a {
+	display: inline; /* Les éléments de la liste sont alignés */
+	line-height: 20px !important;
+	font-size: 16px;
+}
+
+
 
 
 h1 {
@@ -223,24 +251,16 @@ aside {
 	margin-top: 55px;
 }
 
-footer {
-	color: white;
+footer .container {
+	width : 100% !important;
+	margin : 0;
+	padding : 0;
 }
 
-footer img {
-	width: 100% ;
-	margin-left: 0px;
-}
-
-footer ul {
-	width: 100% ;
-}
-
-footer ul li {
+footer .container img {
 	width: 100%;
 }
 
-footer li {
-	width: 100% ;
-	list-style: none; 
+footer {
+	color: white;
 }
