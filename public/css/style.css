@@ -127,11 +127,14 @@ header .container {
 
 .subnav ul {
 	list-style: none; /* pas de petits points */
-	background-color: #B9C1CD; /*couleur bordeaux : A13447*/
+	background-color: #4D4F52; /*couleur gris poivre : 4D4F52 / eucaliptus :#4D7A79 / Coeur amande : #E7E6DD  / 
+	nopal : #8F988F / crépuscule : #535B6F* / bleu fumée : #88D1C0/ */
+	padding: 5px;
 }
 
 .subnav ul li {
 	display: inline; /* Les éléments de la liste sont alignés */
+	margin: 25px;
 }
 
 .subnav ul li a {
@@ -139,8 +142,6 @@ header .container {
 	line-height: 20px !important;
 	font-size: 16px;
 }
-
-
 
 
 h1 {
