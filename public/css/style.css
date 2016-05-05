@@ -171,19 +171,22 @@ h3 {
 }
 
 .carousel p {
-	color: white;
+	color: black;
 	font-family: 'Inconsolata' !important ;
-	font-size: 20px;
+	font-size: 16px;
+	text-shadow : 0 0px 0px rgba(0,0,0,0) !important;
+	background-color: white ; /*4D4F52*/
+	border: 2px #4D4F52 solid ;
 }
 
 .carousel a {
 	color : white;
 	font-family: 'Patrick Hand', cursive;
-	font-size: 22px;
+	font-size: 16px;
 }
 
 .carousel a:link { /*lien non visité*/
-	color: #88D1C0;
+	color: #88D1C0; /*#88D1C0*/
 }
 
 .carousel a:hover { /*lien visé*/
@@ -198,9 +201,21 @@ h3 {
 	color : #88D1C0;
 }
 
+.carousel-caption p  {
+	background-color: white;
+	padding: 20px;
+}
+
+.carousel-caption p a {  /*Texte dans bouton*/
+	background-color: white ; /*4D4F52*/
+	border: 2px #88D1C0 dotted ;
+}
+
+/*
 .owl-carousel p {
 	color : red;
 }
+*/
 
 article {
 	background-color: white;
