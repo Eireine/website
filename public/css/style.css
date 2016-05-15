@@ -127,8 +127,8 @@ header .container {
 
 .subnav ul {
 	list-style: none; /* pas de petits points */
-	background-color: #4D4F52; /*couleur gris poivre : 4D4F52 / eucaliptus :#4D7A79 / Coeur amande : #E7E6DD  / 
-	nopal : #8F988F / crépuscule : #535B6F* / bleu fumée : #88D1C0/ */
+	background-color: #4D4F52; /*couleur gris poivre : 4D4F52 */ 
+	opacity: 0.9; 
 	padding: 5px;
 }
 
@@ -170,6 +170,7 @@ h3 {
 	min-width: 100%;
 }
 
+
 .carousel p {
 	color: black;
 	font-family: 'Inconsolata' !important ;
@@ -210,6 +211,7 @@ h3 {
 	background-color: white ; /*4D4F52*/
 	border: 2px #88D1C0 dotted ;
 }
+
 
 /*
 .owl-carousel p {
